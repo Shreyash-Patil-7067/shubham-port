@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(237, 237, 237);
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+h2{
+    font-size: 100px;
+    font-family: "Work Sans";
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 5%;
+}
+.profile-photo{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+   
+}
+.description{
+    padding-right: 3%;
+    font-family: "Work Sans";
+    font-weight: bold;
+}
+.work{
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#profile{
+    padding: 7% 15%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.parent{
+   display: flex;
+}
+.profile-box{
+    text-align: left;
+    position: relative;
+}
+.profile-text{
+    padding-top: 10%;
+}
+.buttons{
+    display: flex;
+    column-gap: 25px;
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: #000;
+    font-family: "Work Sans";
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.btn-resume{
+    background-color: orange;
+}
+.btn-projects{
+    background-color: rgb(240, 73, 43);
+}
+.btn-contact{
+    background-color: rgb(91, 236, 234);
+}
+.btn:hover{
+    background-color:rgb(237, 237, 237);
+    color: #000;
+}
+.icons{
+    display: flex;
+    column-gap: 25px;
+ 
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #000;
+    border-radius: 50%;
+    outline: 2px solid #000;
+    transition-property: outline-offset,outline-color,background-color;
+    transition-duration: .25s;
+}
+.icon:hover{
+    outline-offset: 4px;
+}
+.icon:hover i{
+    animation:shake 0.25s;
+}
+.icon--instagram:hover{
+    background-image: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5049 45%,#d6249f 60%,#285AEB 90%);
+    outline-color: #a02d76;
+}
+.icon--linkedin:hover{
+    background-color:#fff ;
+    outline-color: rgb(31, 89, 169); ;
+}
+.icon--github:hover{
+    background-color: #000;
+    outline-color: gray; ;
+    color: #fff;
+}
+.fo{
+    padding: 4% 3%; 
+    text-align: left;
+}
+h6{
+    font-family: "Work Sans";
+    font-weight: bold;
+    
+}
+footer .p{
+    font-family: "Barlow Condensed-thin";
+    font-size: smaller;
+}
+@media (max-width:1300px){
+    #profile{
+        text-align: center;
+        padding: 7% 15%;
+    }
+    footer{
+        padding-left: 10%;
+    }
+}
